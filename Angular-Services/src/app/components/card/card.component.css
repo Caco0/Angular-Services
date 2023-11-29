@@ -1,0 +1,37 @@
+.card__container {
+  border: solid 2px black;
+  width: 200px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  background-color: #232323;
+  border-radius: 10px;
+}
+
+.card--title h2 {
+  color: aliceblue;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.card--image {
+  background-color: #616161;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70%;
+  border-radius: 10px;
+}
+.card--stats {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card--stats__type {
+  color: aliceblue;
+  background-color: coral;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 3px;
+}
