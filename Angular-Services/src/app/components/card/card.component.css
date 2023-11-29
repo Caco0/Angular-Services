@@ -1,6 +1,6 @@
 .card__container {
   border: solid 2px black;
-  width: 200px;
+  width: 250px;
   height: 350px;
   display: flex;
   flex-direction: column;
@@ -12,6 +12,7 @@
   color: aliceblue;
   margin: 10px 0;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .card--image {
@@ -22,6 +23,10 @@
   height: 70%;
   border-radius: 10px;
 }
+img {
+  width: 100%;
+}
+
 .card--stats {
   padding-top: 15px;
   display: flex;
@@ -35,4 +40,14 @@
   font-weight: 900;
   padding: 5px;
   margin: 0 3px;
+  text-transform: uppercase;
+}
+input {
+  width: 250px;
+  height: 28px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 8px;
+  box-shadow: rgba(177, 133, 133, 0.35) 0px -50px 36px -28px inset;
+  text-align: center;
 }
