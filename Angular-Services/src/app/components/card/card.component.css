@@ -29,9 +29,10 @@
   justify-content: center;
 }
 .card--stats__type {
-  color: aliceblue;
+  color: #232323;
   background-color: coral;
   border-radius: 5px;
+  font-weight: 900;
   padding: 5px;
   margin: 0 3px;
 }
